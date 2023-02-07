@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>0h h1 Solver</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="menu">
+        <div class="container-col">
+            <h1>Select a size to play</h1>
+            <div id="menu-buttons" class="container-col">
+                <div class="tile tile-2" data-action="makeGrids" data-size="4">4</div>
+                <div class="tile tile-1" data-action="makeGrids" data-size="6">6</div>
+                <div class="tile tile-2" data-action="makeGrids" data-size="8">8</div>
+                <div class="tile tile-1" data-action="makeGrids" data-size="10">10</div>
+                <div class="tile tile-2" data-action="makeGrids" data-size="12">12</div>
+            </div>
+        </div>
+    </div>
+    <div id="game" class="hidden">
+        <div class="container-row">
+            <div id="puzzle" class="container-col container-grid">
+                <h1>Puzzle</h1>
+                <div id="puzzle-grid" class="grid"></div>
+            </div>
+            <div id="game-info" class="container-col">
+                <h1 id="size-info"></h1>
+                <p data-action="solve">Solve</p>
+                <p data-action="returnToMenu">Return</p>
+            </div>
+            <div id="solution" class="container-col container-grid">
+                <h1>Solution</h1>
+                <div id="solution-grid" class="grid"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
