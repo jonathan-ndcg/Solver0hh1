@@ -10,7 +10,7 @@ GUI based solver for the logic game [0h h1](https://0hh1.com/).
 * C++
 * HTML
 * CSS
-* Javascript
+* JavaScript
 * [Crow](https://github.com/CrowCpp/Crow)
 
 ## Installation
